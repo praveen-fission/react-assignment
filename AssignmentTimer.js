@@ -18,7 +18,7 @@ class AssignmentTimer extends Component {
     render() {
         return (
             <div>
-                 <p>Time: {this.state.counter.getHours()} hours {this.state.counter.getMinutes()} minutes {this.state.counter.getSeconds()} seconds</p>
+                 <p>Time: {this.state.date.getHours()} hours {this.state.date.getMinutes()} minutes {this.state.date.getSeconds()} seconds</p>
                 <p>time: {this.state.date.toLocaleTimeString()}</p>
             </div >
         )
